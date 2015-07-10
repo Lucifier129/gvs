@@ -38,7 +38,7 @@
     }
 
     /**
-    * @return {globals} 当前页面的所有自定义全局变量
+    * @return {Array} globals 当前页面的所有自定义全局变量
     */
     function sniff() {
         var globals = []
